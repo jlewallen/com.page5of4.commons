@@ -1,0 +1,24 @@
+<archetype>
+  <id>spring-mvc</id>
+  <sources>
+    <source>src/main/java/web/HomeController.java</source>
+    <source>src/main/java/web/ApplicationConversionServiceFactoryBean.java</source>
+    <source>src/main/java/listeners/SimpleMessageListener.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/ApplicationSpecs.java</source>
+  </testSources>
+  <resources>
+    <resource>src/main/resources/log4j.xml</resource>
+    <resource>src/main/resources/META-INF/persistence.xml</resource>
+    <resource>src/main/resources/META-INF/spring/applicationContext.xml</resource>
+    <resource>src/main/resources/META-INF/spring/applicationContext-mvc.xml</resource>
+    <resource>src/main/resources/META-INF/spring/database.properties</resource>
+    <resource>src/main/resources/META-INF/spring/jms.properties</resource>
+    <resource>src/main/webapp/WEB-INF/views/home/home.jspx</resource>
+    <resource>src/main/webapp/WEB-INF/views/home/views.xml</resource>
+    <resource>src/main/webapp/WEB-INF/views/layouts/default.jspx</resource>
+    <resource>src/main/webapp/WEB-INF/views/layouts/layouts.xml</resource>
+    <resource>src/main/webapp/WEB-INF/web.xml</resource>
+  </resources>
+</archetype>
