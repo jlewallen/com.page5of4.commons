@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>${groupId}</groupId>
 	<artifactId>${artifactId}</artifactId>
@@ -26,6 +25,18 @@
 			<groupId>commons-jexl</groupId>
 			<artifactId>commons-jexl</artifactId>
 			<version>1.1</version>
+		</dependency>
+		
+		<!-- Page5of4 -->
+		<dependency>
+			<groupId>com.page5of4.commons</groupId>
+			<artifactId>commons-mvc</artifactId>
+			<version>1.0.0-BUILD-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.page5of4.commons</groupId>
+			<artifactId>commons-spring</artifactId>
+			<version>1.0.0-BUILD-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>

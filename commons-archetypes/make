@@ -3,7 +3,7 @@ pushd target
 rm -rf artifact
 mvn archetype:generate -DarchetypeGroupId=com.page5of4.commons.archetypes \
                        -DarchetypeArtifactId=spring-mvc-jms-archetype \
-                       -DarchetypeVersion=1.0-SNAPSHOT \
+                       -DarchetypeVersion=1.0.0-SNAPSHOT \
                        -DgroupId=com.testing -DartifactId=artifact -Dversion=1.0.0-SNAPSHOT \
                        -Dpackage=com.testing.artifact \
                        -DinteractiveMode=false
