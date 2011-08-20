@@ -8,6 +8,7 @@ mvn archetype:generate -DarchetypeGroupId=com.page5of4.commons.archetypes \
                        -Dpackage=com.testing.artifact \
                        -DinteractiveMode=false
 pushd artifact
+mvn eclipse:eclipse
 mvn jetty:run
 popd
 popd

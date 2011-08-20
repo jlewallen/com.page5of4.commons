@@ -3,6 +3,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.page5of4.commons.archetypes</groupId>
   <artifactId>spring-mvc-jms-archetype</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <url>http://maven.apache.org</url>
 </project>
