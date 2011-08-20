@@ -8,6 +8,7 @@
 
 	<modules>
 		<module>commons-data</module>
+		<module>commons-mvc</module>
 		<module>commons-archetypes</module>
 	</modules>
 
