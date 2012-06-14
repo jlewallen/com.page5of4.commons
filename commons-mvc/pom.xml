@@ -269,11 +269,11 @@
 	<distributionManagement>
 		<repository>
 			<id>jlewallen-release</id>
-			<url>http://nexus.page5of4.com/nexus/content/repositories/jlewallen-release</url>
+			<url>http://git.solutionstream.com/nexus/content/repositories/page5of4-releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>jlewallen-snapshot</id>
-			<url>http://nexus.page5of4.com/nexus/content/repositories/jlewallen-snapshot</url>
+			<url>http://git.solutionstream.com/nexus/content/repositories/page5of4-snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
